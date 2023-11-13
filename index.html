@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container flex">
+  <div class="stopwatch flex">
+     <h1 id="display"> 00:00:00</h1>
+     <div class="display-d flex">
+     <h2> hours </h2>
+     <h2> Minutes </h2>
+     <h2> Seconds</h2>
+     </div>
+     <div class="btn flex">
+       <button onclick="pausewatch()">Stop</button>
+       <button onclick="startwatch()">Start</button>
+       <button onclick="resetwatch()" id="reset">Reset</button>
+       </div>
+  </div>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
